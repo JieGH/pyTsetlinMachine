@@ -4,6 +4,7 @@ forked from cair/pyTsetlinMachine
 Read https://github.com/cair/pyTsetlinMachine/blob/master/README.md for original readme
 
 This forked repository added few incremental features to python program at "examples/MNISTDemo.py". 
+The new python program is "MNIST_J/MNISTDemo_savefig.py"."
 
 The added features include: 
 1) Providing parser for command-line options that allow user set the specifications of the Tsetlin Machine before the execution of the program
