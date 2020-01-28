@@ -44,7 +44,7 @@ for i in range(epochs):
 	result_train_a.append(result_train)
 	print("# %d Epoch: Test accuracy: %.2f%%, Training accuracy: %.2f%%" % (i+1, result_test, result_train))
 
-plt.suptitle('Training accuracy per Epoch for C=%s T=%s S=%.1f'%(number_of_clauses,T,s))
+plt.suptitle('Accuracy per Epoch for C=%s T=%s S=%.1f'%(number_of_clauses,T,s))
 plt.plot(epoch_range, result_train_a,'-b', label='Train')
 plt.plot(epoch_range, result_test_a,'--r', label='Test')
 plt.legend(loc='lower right', frameon=False)
